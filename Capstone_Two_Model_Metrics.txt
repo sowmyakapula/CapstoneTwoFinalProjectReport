@@ -1,0 +1,30 @@
+Final Model: Random Forest Classifier
+
+Target Variable:
+Reached.on.Time_Y.N
+
+Features Used:
+All relevant shipment and customer features after preprocessing, including encoded categorical variables.
+
+Preprocessing Steps:
+- Removed duplicates
+- Checked for missing values
+- Converted categorical variables into dummy variables using one-hot encoding
+- Split data into training and testing sets
+- Applied feature scaling where appropriate
+
+Model Parameters:
+random_state = 42
+
+Hyperparameters:
+Default Random Forest settings
+
+Performance Metrics:
+Accuracy: 0.68
+Precision: 0.67
+Recall: 0.68
+F1 Score: 0.68
+ROC AUC: 0.75
+
+Notes:
+Random Forest was selected as the final model because it achieved the best overall performance among the models tested, especially on the F1 score metric.
